@@ -1,9 +1,12 @@
+import Link from "next/link";
+
 export default function Projects() {
     return (
         <main>
             <div className="black-background2" id="projects"></div>
             <h1 className="recent-work">Recent work</h1>
             <div className="three-projects">
+            <Link href="/picoo">
                 <section className="project1">
                     <img src="/images/picooprojectimg.png" alt="Picooimg" className="picooimg"/>
                     <article className="picoo-article">
@@ -19,6 +22,8 @@ export default function Projects() {
                         </div>
                     </article>
                 </section>
+            </Link>
+            <Link href="/bryce">
                 <section className="project2">
                     <img src="/images/owenbryceprojectimg.png" alt="OwenBryceImg" className="owenbryceimg"/>
                     <article className="owenbryce-article">
@@ -33,6 +38,8 @@ export default function Projects() {
                         </div>
                     </article>
                 </section>
+            </Link>
+            <Link href="/movie">
                 <section className="project3">
                     <img src="/images/movieprojectimg.png" alt="MovieImg" className="movieimg"/>
                     <article className="movie-article">
@@ -48,6 +55,7 @@ export default function Projects() {
                         </div>
                     </article>
                 </section>
+            </Link>
             </div>
         </main>
     );

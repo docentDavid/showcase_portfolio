@@ -1,4 +1,7 @@
 "use client";
+import About from "./about/page";
+import Projects from "./projects/page";
+import StartYourProject from "./start_your_project/page";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -34,6 +37,9 @@ export default function Home() {
           </div>
         </div>
         </aside>
+        <About/>
+        <Projects/>
+        <StartYourProject/>
     </main>
   );
 }

@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Adamina, Abhaya_Libre, Inter, Akatab, Alata } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
-import About from "./about/page";
-import Projects from "./projects/page";
-import StartYourProject from "./start_your_project/page";
 import Footer from "./components/footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,9 +69,6 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <About />
-        <Projects />
-        <StartYourProject />
         <Footer />
       </body>
     </html>

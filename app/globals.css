@@ -601,3 +601,8 @@ footer h4 {
 .socials img:hover {
   transform: translateY(-5px);
 }
+
+.hello {
+  font-size: 600px;
+}
+
