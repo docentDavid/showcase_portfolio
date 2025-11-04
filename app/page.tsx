@@ -17,7 +17,7 @@ export default function Home() {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}>
             <a href="https://www.instagram.com/radu_gh16/" target="_blank" className="gettoknowme-text">Get to know me</a>
-            <img src="/images/instagram.png" alt="Instagram" />
+            <a href="https://www.instagram.com/radu_gh16/" target="_blank"><img src="/images/instagram-logo.png" alt="Instagram" /></a>
           </div>
         </div>
         </aside>

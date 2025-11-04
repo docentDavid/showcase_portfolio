@@ -10,6 +10,8 @@ export default function StartYourProject() {
             message: "",
         });
 
+        const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+
         const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
             setFormData({ ...formData, [e.target.name]: e.target.value });
         };
@@ -30,14 +32,14 @@ export default function StartYourProject() {
             "pF-umWLvZd-cOm1Eo"
         )
         .then(
-            (result) => {
-            console.log(result.text);
-            alert("Message sent successfully! ✅");
-            setFormData({ name: "", email: "", phone: "", message: "" });
+            () => {
+                setStatus("success");
+                setFormData({ name: "", email: "", phone: "", message: "" });
+                setTimeout(() => setStatus("idle"), 4000); // hide message after 4s
             },
-            (error) => {
-            console.log(error.text);
-            alert("Failed to send message. Please try again.");
+            () => {
+                setStatus("error");
+                setTimeout(() => setStatus("idle"), 4000);
             }
         );
     };
@@ -100,7 +102,20 @@ export default function StartYourProject() {
                                 required
                             />
 
-                        <button type="submit" className="get-started">Get started</button>
+                        {/* ✅ Replace button with status message */}
+                        {status === "idle" || status === "sending" ? (
+                            <button type="submit" className="get-started">
+                            {status === "sending" ? "Sending..." : "Get started"}
+                            </button>
+                        ) : status === "success" ? (
+                            <p className="status-box success">
+                            ✅ Message sent successfully!
+                            </p>
+                        ) : (
+                            <p className="status-box error">
+                            ❌ Something went wrong. Please try again.
+                            </p>
+                        )}
                     </form>
 
                 </div>
