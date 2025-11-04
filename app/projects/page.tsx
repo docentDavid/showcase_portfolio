@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <main>
-            <div className="black-background2"></div>
+            <div className="black-background2" id="projects"></div>
             <h1 className="recent-work">Recent work</h1>
             <div className="three-projects">
                 <section className="project1">

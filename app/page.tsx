@@ -1,12 +1,25 @@
 "use client";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
   const [hovered, setHovered] = useState(false);
 
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const section = document.querySelector(hash);
+      if (section) {
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: "smooth" });
+        }, 300); // slight delay for render
+      }
+    }
+  }, []);
+
   return (
     <main>
-        <div className="blackcircle"></div>
+        <div className="blackcircle" id="home"></div>
         <img src={hovered ? "/images/me2.png" : "/images/me.png"} alt="me" className="me"/>
         <aside className="homepage">
           <div className="homepagetext">

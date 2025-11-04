@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <main>
-      <div className="black-background"></div>
+      <div className="black-background" id="about-me"></div>
       <section className="aboutme-section">
         <img src="/images/about-me.png" alt="about-me" className="aboutme-img"/>
         <h1 className="aboutme-title">A little bit about me</h1>

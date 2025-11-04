@@ -47,7 +47,7 @@ export default function StartYourProject() {
 
         return (
             <main>
-                <div className="black-background3"></div>
+                <div className="black-background3" id="start-project"></div>
                 <div className="start-project-content">
                     <aside className="start-project-section">
                         <h2 className="start-project-title">Ready to level up your brand?</h2>

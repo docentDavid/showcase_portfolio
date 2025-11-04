@@ -1,5 +1,5 @@
-export default function Picoo {
+export default function Picoo() {
     return (
-        
-    )
+        <h1>Hello world</h1>
+    );
 }
