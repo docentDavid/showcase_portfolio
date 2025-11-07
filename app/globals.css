@@ -637,3 +637,71 @@ footer h4 {
 .picooimg {
   width: 320px;
 }
+
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #020202;
+  gap: 100px;
+  
+}
+
+.row1 img {
+  margin-top: -50px;
+}
+.project_overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_overview h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 200px;
+  letter-spacing: 1.5px;
+}
+
+.project_overview_description {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.project_overview_description p {
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+
+.row2 {
+  display: flex;
+  gap: 50px;
+}
+
+.row2 h4 {
+  font-family: var(--font-ubuntu);
+  font-weight: 500;
+  font-size: 21px;
+  color: #A6A6A6;
+}
+
+.row2 p {
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.client-role-timeline-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.client-role-timeline-tools-description {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
