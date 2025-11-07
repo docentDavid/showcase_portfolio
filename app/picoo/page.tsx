@@ -34,7 +34,7 @@ export default function Picoo() {
           </div>
         </div>
       </section>
-      
+
       <section className="column1picoo">
         <div className="challenge-strategy-row">
           <aside className="challenge_column">
@@ -67,6 +67,34 @@ export default function Picoo() {
             <p>If you need to see a bunch of iterations made on website prototype <a href="https://www.figma.com/design/CO27QrqCry2HPvK8FDJGsM/Picoo-prototype?node-id=0-1&t=GSdxOt4Q0qH0Cbqu-1" target="_blank">Click here! </a>
             and you will be redirected to our Figma</p>
           </div>
+      </section>
+
+      <section className="impact-results-column">
+        <h1>Impact & Results</h1>
+        <p className="impact-results-text">The creating quiz idea delivered significant results for Picoo company, as it became an efficient and fast way for teachers
+        to test children’s knowledge during classes, leading to Picoo’s growth and increased profitability.</p>
+        <aside className="impact-boxes">
+          <div className="box1">
+            <h3>30%</h3>
+            <p>Increase of selling of picoo sets  in 2025 comparing to 2024</p>
+          </div>
+          <div className="box2">
+            <h3>50+</h3>
+            <p>Schools  have collaborated with Picoo not just from NL but also from Belgium and Germany</p>
+          </div>
+          <div className="box3">
+            <h3>300+</h3>
+            <p>satisfied teachers in the Netherlands, Germany and Belggium</p>
+          </div>
+        </aside>
+        <aside className="quotes-column">
+          <p>“Creating my own quizzes in Picoo is incredibly easy.  It turns assessment into an active game instead of a written test.”  
+          <strong> - Sanne de Vries, teacher.</strong></p>
+          <p>“I use Picoo to build short quizzes that combine physical challenges with subject questions. It’s simple to adjust difficulty levels, and I can instantly see which topics need extra attention.” 
+          <strong> - Lotte van den Berg, teacher.</strong></p>
+          <p>“Designing my own quizzes with Picoo saves so much time. I can reuse or edit questions for different groups, and it keeps lessons dynamic. The children get excited every time they hear we’re doing a Picoo quiz.” 
+          <strong>-  Anouk Janssen, teacher</strong></p>
+        </aside>
       </section>
     </main>
     

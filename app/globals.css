@@ -793,4 +793,102 @@ footer h4 {
   color: #ababab;
 }
 
+.impact-results-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 1030px;
+  background-color: #020202;
+  z-index: -1;
+}
+
+.impact-results-column h1 {
+  font-size: 70px;
+  font-family: var(--font-alata);
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  margin-top: 170px;
+}
+
+.impact-results-text {
+  font-size: 20px;
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  max-width: 1050px;
+  color: #A9A9A9;
+  display: flex;
+  align-self: center;
+}
+
+.impact-boxes {
+  display: flex;
+  gap: 80px;
+  margin-left: -20px;
+}
+
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #00290F;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.box1 {
+  margin-left: 200px;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+  max-width: 300px;
+  font-size: 18px;
+  text-align: center;
+  font-family: var(--font-aDLaM_Display);
+  font-weight: 400;
+  -webkit-text-stroke: .5px white;
+  letter-spacing: 1px;
+}
+
+.box1 h3,
+.box2 h3,
+.box3 h3 {
+  font-size: 50px;
+  font-family: var(--font-aDLaM_Display);
+  font-weight: 400;
+  -webkit-text-stroke: 2px white
+  
+}
+  
+
+
+.quotes-column {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #001307;
+  max-width: 1000px;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.quotes-column strong {
+  font-size: 18px;
+  font-style: italic;
+  color: #A1A1A1;
+}
+
 
