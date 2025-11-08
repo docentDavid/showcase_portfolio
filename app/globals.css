@@ -869,7 +869,6 @@ footer h4 {
   font-family: var(--font-aDLaM_Display);
   font-weight: 400;
   -webkit-text-stroke: 2px white
-  
 }
   
 
@@ -936,5 +935,138 @@ footer h4 {
   font-weight: 400;
   font-size: 18px;
   max-width: 700px;
+}
+
+.movie-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+  margin-bottom: 170px;
+  gap: 100px;
+}
+
+.movie-home p {
+  font-size: 32px;
+  max-width: 420px;
+  font-family: var(--font-alata);
+  font-weight: 400;
+}
+
+.project_overview-movie img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 120px;
+  margin-left: 80px;
+}
+
+.project_overview-movie {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.project_overview-movie h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 180px;
+  letter-spacing: 1.5px;
+}
+
+.project_overview_description-movie {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.project_overview_description-movie p {
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.challenge-strategy-row-movie {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+.challenge-strategy-row-movie ul {
+  list-style-type: disc;
+  font-size: 18px;
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 380px;
+}
+
+.challenge-strategy-row-movie h2 {
+  font-family: var(--font-alata);
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.challenge-strategy-row-movie img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 20px;
+}
+
+.movie-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.movie-row {
+  display: flex;
+  gap: 120px;
+}
+
+.box3-movie,
+.box2-movie,
+.box1-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  padding: 30px;
+  background-color: #00290F;
+  border-radius: 20px;
+  max-width: fit-content;
+}
+
+.box3-movie p,
+.box2-movie p,
+.box1-movie p {
+  max-width: 500px;
+  font-size: 18px;
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.box1-movie h3,
+.box2-movie h3,
+.box3-movie h3 {
+  font-size: 26px;
+  font-family: var(--font-ubuntu);
+  font-weight: 500;
+}
+
+.strong {
+  font-size: 18px;
+  font-style: italic;
+  color: #A1A1A1;
 }
 
