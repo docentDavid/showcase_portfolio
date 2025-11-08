@@ -84,7 +84,7 @@ export default function Picoo() {
           </div>
           <div className="box3">
             <h3>300+</h3>
-            <p>satisfied teachers in the Netherlands, Germany and Belggium</p>
+            <p>satisfied teachers in the Netherlands, Germany and Belgium</p>
           </div>
         </aside>
         <aside className="quotes-column">
@@ -97,7 +97,5 @@ export default function Picoo() {
         </aside>
       </section>
     </main>
-    
-    
   );
 }

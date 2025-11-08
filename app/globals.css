@@ -650,6 +650,7 @@ footer h4 {
 .row1 img {
   margin-top: -50px;
 }
+
 .project_overview {
   display: flex;
   flex-direction: column;
@@ -661,6 +662,7 @@ footer h4 {
   margin-top: 200px;
   letter-spacing: 1.5px;
 }
+
 
 .project_overview_description {
   display: flex;
@@ -891,4 +893,48 @@ footer h4 {
   color: #A1A1A1;
 }
 
+.brycelogotext {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.picoo-home p {
+  font-size: 22px;
+  max-width: 420px;
+  font-family: var(--font-alata);
+  font-weight: 400;
+}
+
+.brycelogo {
+  width: 300px;
+  height: auto;
+}
+
+.project_overvew-bryce {
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+}
+.project_overview-bryce h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  letter-spacing: 1.5px;
+}
+
+.project_overview_description-bryce {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 200px;
+}
+
+.project_overview_description-bryce p {
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 700px;
+}
 
