@@ -34,3 +34,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Project goals
+
+The main goal of this project is to introduce myself, my work and my skills to the company I would like to work for or doing an internship.
+Second goal is more personal - to learn Nextjs and its basics as this showcase portfolio is my first project made in Nextjs.
+
+## Technologies used
+
+I created a Nextjs project via Visual Studio code and mainly worked in HTML and CSS and used JavaScript when needed for some animations.
+Also for "Start your project" form I used the "EmailJs" platform where I am able to get the answers on my personal email whenever someone completes the form. I made a template of emails I will receive from the form to my email with no backend and API's. For more information check the platform I used: (https://www.emailjs.com/)
+
+## Iterations and validation moments 
+
+In the beginning I researched a lot to have an idea how my portfolio is going to look like, I chose 2 portfolios online I liked the most and combined them by using certain design and structure decisions from those portfolios plus adding my own style and made it in my own way. I looked what all portfolios have in common so I also add it to my portfolio and test it. I tested my product on all stages: while prototyping in figma and made some changes and while coding. After testing in all stages I made a lot of changes like changing the header gradient, adding and structuring the information regarding my projects, changed some animations for a better UI/UX perspective etc... For more detailed informarion about the process with visual examples visit my portflow from canvas - second Review.
+
+## Reflection on my learning process
+
+After making this portfolio I understood the basics of Nextjs - how to create a Nextjs project with basic features, how to organize the folders and files, how the navigation works etc... This is an important step towards frontend developing as Nextjs is often used in real life projects and learning it is now is going to help me in the future as I am planning to work in this direction in the future. However I'm not going to limit myself just to Nextjs as I'm planning to choose mobile apps development in semester 4 and learn rather the Swift for IOS or kotlin for Android haven't decided yet, so will see after semester 4 what I'm going to do next.
+
+## Contact info
+
+My name is Ghimp Radu - the only person who prototyped and developed this portfolio, if you need to get in touch with me you can email or call me:
+Personal email: radughimp2005@gmail.com
+Phone number: +31610422428
