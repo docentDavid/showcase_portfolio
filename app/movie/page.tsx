@@ -65,7 +65,7 @@ export default function Movie() {
         <aside className="movie-column"> 
           <div className="movie-row">
             <div className="box1-movie">
-              <h3>My thouts</h3>
+              <h3>My thoughts</h3>
               <p>During this project the most important thing I learned is React framework, I got to know the basics and how to work with API’s which is something important to know for future Frontend projects. Also, I got the opportunity to test my product with end users, listen to their opinion and improve my product.</p>
             </div>
             <div className="box2-movie">
