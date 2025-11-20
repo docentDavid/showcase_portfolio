@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Picoo() {
   return (
     <main>
@@ -6,7 +8,7 @@ export default function Picoo() {
           <img src="/images/picooimg.png" className = "picoo1logo"alt="Picoo image" />
           <p>A simple, user friendly website that helps primary schools teachers create a quiz fast and efortless.</p>
         </div>
-        <img src="/images/picoo.gif"  className="picoogif" alt="Picoo gif" />
+        <Image src="/images/picoo.gif"  className="picoogif" alt="Picoo gif" />
       </section>
 
       <section className="row1">
