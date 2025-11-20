@@ -5,7 +5,13 @@ export default function Picoo() {
     <main>
       <section className="picoo-home">
         <div className="picoologotext">
-          <img src="/images/picooimg.png" className = "picoo1logo"alt="Picoo image" />
+          <Image
+            src="/images/picooimg.png"
+            className="picoo1logo"
+            alt="Picoo image"
+            width={304}
+            height={102}
+          />
           <p>A simple, user friendly website that helps primary schools teachers create a quiz fast and efortless.</p>
         </div>
         <Image src="/images/picoo.gif"  className="picoogif" alt="Picoo gif" width={500} height={300} unoptimized />
@@ -14,7 +20,7 @@ export default function Picoo() {
       <section className="row1">
         <div className="project_overview">
           <h1>Project Overview</h1>
-          <img src="/images/picoo_device.png" alt="Picoo device image" />
+          <Image src="/images/picoo_device.png" alt="Picoo device image" width={397} height={570} />
         </div>
         <div className="project_overview_description">
           <p>The project focused on creating an additional service to already existing brand and website giving
@@ -41,7 +47,7 @@ export default function Picoo() {
         <div className="challenge-strategy-row">
           <aside className="challenge_column">
             <div className="heading-and-icon-row">
-              <img src="/images/challengeicon.png" alt="Challenge icon" />
+              <Image src="/images/challengeicon.png" alt="Challenge icon" width={30} height={30} />
               <h2>The challenge</h2>
             </div>
             <ul>
@@ -53,7 +59,7 @@ export default function Picoo() {
           </aside>
           <aside className="strategy_column">
             <div className="heading-and-icon-row">
-              <img src="/images/strategyicon.png" alt="Strategy icon" />
+              <Image src="/images/strategyicon.png" alt="Strategy icon" width={33} height={33} />
               <h2>The strategy</h2>
             </div>
             <ul>

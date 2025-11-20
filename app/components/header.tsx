@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 
 export default function Header() {
@@ -10,7 +11,9 @@ export default function Header() {
   return (
     <header>
             <ul className="container-header">
-              <li><img src="/images/radulogo.png" alt="Logo" className="radulogo" /></li>
+              <li>
+                <Image src="/images/radulogo.png" alt="Logo" className="radulogo" width={248} height={161} />
+              </li>
               <li><div className="smallrectangle"></div></li>
               <div className="radughimp">
                 <p>RADU GHIMP</p>

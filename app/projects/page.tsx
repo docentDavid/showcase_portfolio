@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Projects() {
     return (
@@ -8,7 +9,7 @@ export default function Projects() {
             <div className="three-projects">
             <Link href="/picoo">
                 <section className="project1">
-                    <img src="/images/picooprojectimg.png" alt="Picooimg" className="picooimg"/>
+                    <Image src="/images/picooprojectimg.png" alt="Picooimg" className="picooimg" width={1898} height={858} />
                     <article className="picoo-article">
                         <div className="row">
                             <h2 className="projects-title">Picoo</h2>
@@ -25,7 +26,7 @@ export default function Projects() {
             </Link>
             <Link href="/bryce">
                 <section className="project2">
-                    <img src="/images/owenbryceprojectimg.png" alt="OwenBryceImg" className="owenbryceimg"/>
+                    <Image src="/images/owenbryceprojectimg.png" alt="OwenBryceImg" className="owenbryceimg" width={1901} height={842} />
                     <article className="owenbryce-article">
                         <div className="row">
                             <h2 className="projects-title">Owen Bryce</h2>
@@ -41,7 +42,7 @@ export default function Projects() {
             </Link>
             <Link href="/movie">
                 <section className="project3">
-                    <img src="/images/movieprojectimg.png" alt="MovieImg" className="movieimg"/>
+                    <Image src="/images/movieprojectimg.png" alt="MovieImg" className="movieimg" width={1898} height={859} />
                     <article className="movie-article">
                         <div className="row">
                             <h2 className="projects-title">Movie website</h2>

@@ -1,15 +1,24 @@
+import Image from "next/image";
+
 export default function Movie() {
   return (
     <main>
       <section className="movie-home">
         <p>A semi functional movie website where anyone can search for a movie they like, save it and watch it.</p>
-        <img src="/images/movie.gif"  className="picoogif" alt="Movie gif" />
+        <Image
+          src="/images/movie.gif"
+          className="picoogif"
+          alt="Movie gif"
+          width={1905}
+          height={866}
+          unoptimized
+        />
       </section>
 
       <section className="row1">
         <div className="project_overview-movie">
           <h1>Project Overview</h1>
-          <img src="/images/movie.png" alt="Movie image" />
+          <Image src="/images/movie.png" alt="Movie image" width={186} height={332} />
         </div>
         <div className="project_overview_description-movie">
           <p>The project was fully made just by myself to learn React framework for people who want to watch a movie but don’t know
@@ -36,7 +45,7 @@ export default function Movie() {
         <div className="challenge-strategy-row-movie">
           <aside className="challenge_column">
             <div className="heading-and-icon-row">
-              <img src="/images/challengeicon.png" alt="Challenge icon" />
+              <Image src="/images/challengeicon.png" alt="Challenge icon" width={30} height={30} />
               <h2>The challenge</h2>
             </div>
             <ul>
@@ -48,7 +57,7 @@ export default function Movie() {
           </aside>
           <aside className="strategy_column">
             <div className="heading-and-icon-row">
-              <img src="/images/strategyicon.png" alt="Strategy icon" />
+              <Image src="/images/strategyicon.png" alt="Strategy icon" width={33} height={33} />
               <h2>The strategy</h2>
             </div>
             <ul>

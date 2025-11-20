@@ -1,18 +1,38 @@
+import Image from "next/image";
+
 export default function Bryce() {
   return (
     <main>
       <section className="picoo-home">
         <div className="brycelogotext">
-          <img src="/images/owenbrycelogo.png" className = "brycelogo"alt="Owen bryce image" />
+          <Image
+            src="/images/owenbrycelogo.png"
+            className="brycelogo"
+            alt="Owen bryce image"
+            width={247}
+            height={187}
+          />
           <p>A full-scale marketing campaign for a rising folk/indie musician, establishing a consistent and recognizable brand presence across various platforms.</p>
         </div>
-        <img src="/images/bryce-v2.gif"  className="picoogif" alt="Bryce gif" />
+        <Image
+          src="/images/bryce-v2.gif"
+          className="picoogif"
+          alt="Bryce gif"
+          width={1905}
+          height={866}
+          unoptimized
+        />
       </section>
 
       <section className="row1">
         <div className="project_overview-bryce">
           <h1>Project Overview</h1>
-          <img src="/images/bryceimg.png" alt="Owen Bryce image" />
+          <Image
+            src="/images/bryceimg.png"
+            alt="Owen Bryce image"
+            width={447}
+            height={365}
+          />
         </div>
         <div className="project_overview_description-bryce">
           <p>The project focused on creating a comprehensive promotional strategy for
@@ -40,7 +60,12 @@ export default function Bryce() {
         <div className="challenge-strategy-row">
           <aside className="challenge_column">
             <div className="heading-and-icon-row">
-              <img src="/images/challengeicon.png" alt="Challenge icon" />
+              <Image
+                src="/images/challengeicon.png"
+                alt="Challenge icon"
+                width={30}
+                height={30}
+              />
               <h2>The challenge</h2>
             </div>
             <ul>
@@ -53,7 +78,12 @@ export default function Bryce() {
           </aside>
           <aside className="strategy_column">
             <div className="heading-and-icon-row">
-              <img src="/images/strategyicon.png" alt="Strategy icon" />
+              <Image
+                src="/images/strategyicon.png"
+                alt="Strategy icon"
+                width={33}
+                height={33}
+              />
               <h2>The strategy</h2>
             </div>
             <ul>

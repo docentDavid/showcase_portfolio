@@ -4,6 +4,7 @@ import Projects from "./projects/page";
 import StartYourProject from "./start_your_project/page";
 import { useState } from "react";
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [hovered, setHovered] = useState(false);
@@ -23,7 +24,13 @@ export default function Home() {
   return (
     <main>
         <div className="blackcircle" id="home"></div>
-        <img src={hovered ? "/images/me2.png" : "/images/me.png"} alt="me" className="me"/>
+        <Image
+          src={hovered ? "/images/me2.png" : "/images/me.png"}
+          alt="me"
+          className="me"
+          width={hovered ? 191 : 188}
+          height={hovered ? 351 : 347}
+        />
         <aside className="homepage">
           <div className="homepagetext">
           <p className="frontend-title">FRONTEND DEVELOPER & DESIGNER</p>
@@ -33,7 +40,9 @@ export default function Home() {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}>
             <a href="https://www.instagram.com/radu_gh16/" target="_blank" className="gettoknowme-text">Get to know me</a>
-            <a href="https://www.instagram.com/radu_gh16/" target="_blank"><img src="/images/instagram-logo.png" alt="Instagram" /></a>
+            <a href="https://www.instagram.com/radu_gh16/" target="_blank">
+              <Image src="/images/instagram-logo.png" alt="Instagram" width={56} height={56} />
+            </a>
           </div>
         </div>
         </aside>
