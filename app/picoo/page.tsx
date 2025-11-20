@@ -43,8 +43,8 @@ export default function Picoo() {
               <h2>The challenge</h2>
             </div>
             <ul>
-              <li>Teachers are too limited in resources to test childrens' knowledge</li>
-              <li>Teachers don’t have high technical skills</li>
+              <li>Teachers are too limited in resources to test childrens&#39; knowledge</li>
+              <li>Teachers don&#39;t have high technical skills</li>
               <li>Picoo is known in a limited amount of schools in the Netherlands</li>
               <li>Finish everything till deadline</li>
             </ul>
