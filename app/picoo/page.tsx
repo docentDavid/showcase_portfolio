@@ -8,7 +8,7 @@ export default function Picoo() {
           <img src="/images/picooimg.png" className = "picoo1logo"alt="Picoo image" />
           <p>A simple, user friendly website that helps primary schools teachers create a quiz fast and efortless.</p>
         </div>
-        <Image src="/images/picoo.gif"  className="picoogif" alt="Picoo gif" />
+        <Image src="/images/picoo.gif"  className="picoogif" alt="Picoo gif" width={500} height={300} unoptimized />
       </section>
 
       <section className="row1">
